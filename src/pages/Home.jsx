@@ -18,7 +18,7 @@ const Home = () => {
             <section id='sec' className='relative pb-3'>
                 <div className='container w-full text-white md:text-black' id='sec-1-content'>
                     <h2 className='text-4xl pr-44 py-5'>Building stellar websites for startups</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+                    <p>Lorem dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
                     <div className='flex gap-10 py-3'><button className='rounded-full py-2 px-7 bg-yellow-200 text-black'>View our work</button> <span className='py-2 arw-h inline-block'>View Pricing</span></div>
                 </div>
                 <div className='' id='bg-img'>
