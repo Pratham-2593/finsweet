@@ -1,0 +1,197 @@
+@import "../assets/icon/css/all.css";
+@import "./header.css";
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.hide{
+    display: none;
+}
+.arw-h{
+    position: relative;
+    cursor: pointer;
+}
+.arw-h::before{
+    font-family: "FontAwesome";
+    content: "\f178";
+    position: absolute;
+    padding-top: 3px;
+    right: -30px;
+    transition: all 1s ease-in-out;
+}
+.arw-h:hover::before{
+    right: -60px;
+    opacity: 1;
+}
+.arw-h-sec-3{
+    position: relative;
+    cursor: pointer;
+}
+.arw-h-sec-3::before{
+    font-family: "FontAwesome";
+    content: "\f178";
+    position: absolute;
+    padding-top: 3px;
+    right: 0px;
+    transition: all 1s ease-in-out;
+}
+.arw-h-sec-3:hover::before{
+    right: -30px;
+    opacity: 1;
+}
+
+.container{
+    padding: 0 30px;
+}
+
+body{
+    height: 3000px;
+}
+/* ===== Header-start ===== */
+header{
+    position: relative;
+}
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    padding: 5px 15px;
+    float: left;
+}
+
+/* ===== Header-end ===== */
+
+/* ===== Section - 1 - start ===== */
+#sec {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+#bg-img{
+    background-image: url('../assets/Images/Illustration.png') , url('../assets/Images/Background.png');
+    padding: 350px 400px;
+    background-repeat: no-repeat;
+    background-size: 65% 55% , 100% 100%;
+    background-position: 212px 185px , 0px 0px;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+#sec-1-content{
+    padding: 150px 800px 210px 30px;
+}
+@media (max-width: 1030px) { 
+    #bg-img{
+        padding: 300px 310px;
+        background-size: 55% 45% , 100% 100%;
+        background-position: 190px 200px,0px 0px;
+    }
+    #sec-1-content{
+        padding: 70px 580px 210px 30px;
+    }
+}
+@media (max-width: 850px) { 
+    #bg-img{
+        padding: 300px 250px;
+        background-size: 45% 35% , 100% 100%;
+        background-position: 150px 250px,0px 0px;
+    }
+    #sec-1-content{
+        color: black;
+        padding: 90px 500px 210px 30px;
+    }
+}
+@media (max-width: 375px) { 
+    #bg-img{
+        padding: 300px 210px;
+        background-size: 55% 45% , 100% 100%;
+        background-position: 150px 250px,0px 0px;
+    }
+    #sec-1-content{
+        color: white;
+        padding: 110px 100px 210px 30px;
+    }
+    
+}
+/* ===== Section - 1 - end ===== */
+
+/* ===== Section - 2 - start ===== */
+#sec-2{
+    background-color: #F4F6FC;
+}
+.sec-2-spn{
+    display: inline-block;
+    padding: 10px;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    background-image: url('../assets/Images/Mask\ Group.jpg');
+    background-size: cover;
+}
+
+.sec-2-num div h4{
+    font-size: 25px;
+    padding: 5px 0;
+}
+@media (max-width: 375px) { 
+    .sec-2-num div h4{
+        font-size: 15px;
+        font-weight: bold;
+    }
+}
+
+/* ===== Section - 2 - end ===== */
+
+/* ===== Section - 3 - start ===== */
+#sec-3-back-img{
+    background-image: url('../assets/Images/Card.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+#sec-3-back-img #linear{
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+#sec-3-back-img-2 #bak-img-1{
+    background-image: url('../assets/Images/Rectangle\ 1313.png');
+    background-repeat: no-repeat;
+}
+#sec-3-back-img-2 #linear-1{
+    background-image: linear-gradient(329deg, #1C1E53 -10.96%, rgba(28, 30, 83, 0.42) 103.96%);
+}
+/* ===== Section - 3 - end ===== */
+
+/* ===== Section - 4 - Start ===== */
+#sec-4{
+    background-color: #F4F6FC;
+}
+
+#sec-4 .sec-4-text>div{
+    height: 352px;
+}
+/* ===== Section - 4 - end ===== */
+
+/* ===== Section - 5 - start ===== */
+#sec-5 img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* ===== Section - 5 - end ===== */
+
+/* ===== Section - 7 - start ===== */
+#sec-7-bg-img{
+    height: 520px;
+    background-color: rgba(28, 30, 83, 0.42);
+    background-image: linear-gradient(7deg, rgba(0,26,255,0.3) 0%, rgba(2,20,255,0.23853291316526615) 47%, rgba(5,14,255,0.2) 100%) , url("../assets/Images/30732f1e32bd56f48c9445a26c0f29ba.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* ===== Section - 7 - end ===== */
+
+
